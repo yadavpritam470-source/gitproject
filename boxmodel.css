@@ -1,0 +1,16 @@
+.b
+{
+    width:100px; height:100px; background:yellow;
+    margin: 50px;
+}
+.center
+{
+    width:700px;
+    background:pink;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 auto; */
+    padding:30px 30px 30px 30px;
+    box-sizing: border-box;
+
+}

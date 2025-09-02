@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch+Pop&display=swap');
+.box
+{
+    width: 130px;
+    height: 130px;
+    background:lightgreen;
+    border-width: 20px;
+    border-color: orange;
+    border-style: dashed;
+    box-sizing: border-box;
+    outline:10px darkgreen;
+    outline-offset: 3px ;
+
+    /* border: 20px solid orange; */
+}
+.box1
+{
+    width:200px; height:200px;
+    border-width:40px 20px 10px 30px;
+    background: brown;
+    border:40px;
+    border-color:black blue red green;
+
+}
+.arrow
+{
+    border:20px solid;
+    border-color:lightgreen transparent transparent transparent;
+    width:0;
+}
+.box3
+{
+    width:150px; height:150px; background:pink;
+    border-left:20px solid black;
+    border-top:10px solid green;
+}
+.text
+{
+    background:red;
+    width: 300px;
+    text-align:center;
+    /* left right center justify */
+    text-decoration: none;
+    /* none underline overline line through */
+    text-transform: lowercase;
+    /* capitalize Uppercase Lowercase none */
+    font-size: 20px;
+    font-style: italic;
+    line-height: 25px;
+    word-spacing: 5px;
+    letter-spacing: -1px;
+    text-indent: 10px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+   
+}
+.fs
+{
+    font-size:55px; color:red;
+}
+.item
+{
+    width:130px; height:130px; border:1px solid black; float: left;
+    text-shadow: 0px 0px 2px blue;
+    box-shadow: 0px 2px 2px 3px orange;
+}
+.a{
+    overflow:hidden;
+}
+.b
+{
+    overflow:hidden;
+}
+.c
+{
+    overflow:auto;
+}
+.d
+{
+    overflow:scroll;
+}

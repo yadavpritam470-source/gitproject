@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+*
+{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+  font-family: "Readex Pro", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+p{
+    line-height: 1.7;
+}
+a
+{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container
+{
+    width:1200px; margin: auto;
+   
+
+}
+.flex
+{
+    display: flex;
+    gap: 25px;
+}
+.jc
+{
+    justify-content: space-between;
+}
+.ai{
+    align-items: center;
+}
+.jb
+{
+   gap: 120px;
+   margin-left:280px ;
+
+}
+.hero
+{
+    background: #FFF9EA;
+    position: relative;
+}
+.btn
+{
+    background: #FFCB45;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+}
+nav a
+{
+    color: black;
+    position: relative;
+}
+nav a::before
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#FFCB45;
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    transition: 0.9s;
+}
+nav a:hover::before
+{
+    width: 100%;
+
+}
+.hero-content-left
+{
+    width: 500px;
+}
+.hero-content-left h1
+{
+  font-size: 42px;
+}
+.hero-content-left h1 span
+{
+    color: #FFCB45;
+}
+.hero-content-left p
+{
+    padding: 20px 0;
+    width: 350px;
+    color: #1D1D1DB2;
+}
+.rectangle-14
+{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+.rectangle-15
+{
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.circle1
+{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background: #FFAC4B;
+    position: absolute;
+    right: 150px;
+    bottom: 300px;
+}
+.circle2
+{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #FFAC4B;
+    position: absolute;
+    right: 600px;
+    top: 100px;
+}
+.circle3
+{
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: #FFAC4B;
+    position: absolute;
+    right: 600px;
+    bottom: 340px;
+}
+.circle4
+{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: #FFAC4B;
+    position: absolute;
+    right: 700px;
+    bottom: 100px;
+}
+.service
+{
+    padding: 50px 0;
+}
+.tc{
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h4{
+    color:#FFCB45;
+}
+.container h2{
+    margin-top: 10px;
+}
+.container p{
+    margin-top: 10px;
+color: #1D1D1DB2;}
+.sbox
+{
+    margin-top: 30px;
+    align-items: center; 
+}
+.sbox h4{
+    text-align: center;
+    margin-top: 12px;
+}
+.sbox p{
+   color: #1D1D1DB2;
+   width: 200px;
+   text-align: center;
+   margin-top: 10px;
+
+}
+.menu{
+    margin-top: 20px;
+}
+.menu {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.ww{
+    width: 300px;
+}
+.box{
+    width: 280px;
+    height: 300px;
+    position: relative;
+    background: gray;
+    overflow: hidden;
+    box-shadow: 0 0 3px gray;
+    margin-top: 12px;
+    gap: 20px;
+}
+
+.box::after{
+   content: '';
+   width:120%;
+   height:100px;
+   border-radius: 40%;
+   background: white;
+   position: absolute;
+   bottom: -20px;
+   left:-18px;
+}
+.img
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 20px;
+}
+.box-c{
+    position: absolute;
+    z-index: 999;
+    left: 90px;
+    bottom: 4px;
+    text-align: center;
+    line-height: 0;
+    padding: 5px;
+}
+.button
+{
+   background: #FFCB45;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 60px;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    left: 700px;
+}
+
+
+.group-7{
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.rectangle{
+    width: 380px;
+    height: 150px;
+background: #F1F1F1;    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 655px;
+    bottom: -1280px;
+    box-shadow: 3px 3px #F1F1F1 ;
+}
+.image
+{
+    width: 40px;
+    height: 40px;
+}
+.quote
+{
+    background: url(img/unsplash_2lWGQ02DGL8.png);
+    color: white;
+    text-align: center;
+    background-size: 100%;
+    padding: 100px;
+    margin-top: 20px;
+}
+footer
+{
+    background: #FFF9EA;
+}
+.content{
+    color:#1D1D1DB2;
+    line-height: 2;
+}
+footer h5{
+    margin-top: 20px;
+}
+.fb{
+    margin-top: 10px;
+    padding: 5px;
+    gap: 20px;
+    
+}
+.copyright
+{
+    width: 1200px;
+    margin-top: 10px;
+    font-size: 12px;
+    color:#1D1D1DB2 ;
+    padding: 20px;
+    border-top: 1px solid #1D1D1D80;
+}

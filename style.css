@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: blue;
+    background: rgb(167, 171, 167);
+    padding-left: 25px;
+    margin: 30px;
+    font-size: 12px;
+}
+
+
+nav {
+    background: Red;
+    color: brown;
+    padding: 10px;
+    border-width: 5px;
+    border-color: black;
+    margin: 25px;
+}
+
+section {
+    background: rgb(176, 176, 169);
+    color: rgb(38, 19, 207);
+    padding: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border-color: brown;
+    border-width: 15px;
+    border-style: dotted;
+}
+
+ header,footer {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border-width: 20px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+    text-size-adjust: 1.5;
+}

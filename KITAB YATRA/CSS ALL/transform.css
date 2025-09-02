@@ -1,0 +1,89 @@
+*{
+    margin-top: 0; padding: 0; box-sizing: border-box;
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    background: black;
+    /* transition: all 4s linear 0s; */
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.box:hover{
+    width: 400px;
+    transition-delay:1s;
+}
+.item{
+    width: 200px; height: 200px;transition: 1s;
+    transition-delay: 0.5s;
+    
+}
+.a{
+    background: blue;
+}
+.a:hover{
+    transform: rotate(360deg);
+}
+.b{
+background: green;
+}
+.b:hover{
+    transform: skew(20deg,40deg);
+    /* transform: skewx(),skewY(); */
+}
+.c
+{
+    background: red;
+}
+.c:hover
+{
+    transform: translate(10px,30px);
+}
+
+.d{
+    background: grey;
+}
+.d:hover{
+    transform: scale(1.5,2);
+}
+.main
+{
+    width: 300px; height: 300px; background: blue;
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+.main img{
+    width: 100%; height: 100%; transition: 0.9s;
+}
+.main img:hover
+{
+    transform: scale(1.4);
+}
+h3{
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    background:black;
+    color: white;
+    transition: 0.9s;
+}
+.main:hover h3{
+    bottom: 5px;
+    
+}
+h4{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    background: black;
+    color: white;
+    transition: 0.9s;
+    
+}
+.main:hover h4{
+    top: 5px;
+}

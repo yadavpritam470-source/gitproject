@@ -1,0 +1,60 @@
+.box p{
+    color: red; /* decendent combinator*/}
+.box > p{
+    background: yellow;
+}
+.box + p
+{
+    font-size: 44px;
+}
+.box P {
+    text-decoration: underline;
+}
+::selection{
+    background: red;
+    color: blue;
+}
+.box1 p::first-letter{
+    font-size: 44px;
+}
+.box1 p::first-line
+{
+    background: pink;
+}
+::marker{color: aqua;}
+::placeholder{color: green;}
+h1::before{content:'ram'; color: green;}
+h1::after{content:'ram'; color: green;}
+.box3 p:first-child{
+    background: gold !important;
+}
+.box3 p:last-child{
+    color: green !important;
+}
+.box3 p:nth-child{
+    background: pink;
+}
+.box3 p:nth-child(odd){
+    background: brown;
+}
+.box3 p:nth-child(even){
+    background: red;
+}
+a:visited
+{color: blue;}
+a:link{ color: blueviolet;}
+a:hover{ color: green;}
+a:active{
+    color: purple;
+}
+:root
+{
+   --brand:blue;
+   --size:200px;
+}
+h2
+{
+    background: var(--brand);
+    height: var(--size);
+    width: var(--size);
+}

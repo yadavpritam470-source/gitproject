@@ -1,0 +1,73 @@
+*
+{
+    margin:0; padding: 0; box-sizing: border-box;
+}
+.container
+{
+    width: 1140px; margin: auto;
+}
+ul
+{
+    list-style: none;
+    
+}
+.flex
+{
+    display:flex
+}
+.jc
+{
+    justify-content: space-between;
+}
+.container{
+    align-items: center;
+}
+.gap{
+    gap: 20px;
+}
+.top{
+   background:  #ddf4cd; padding:15px 0;
+}
+.logo{
+    width: 700px;
+}
+.qrbox{
+    width:70px; line-height: 13px;
+}
+header{
+    padding:15px 0;
+}
+.qr{
+    width: 100%;
+}
+nav{
+    background:#024FA1 ;
+    padding: 20px;
+    color:white;
+}
+nav a{
+    color: white;;
+}
+.web{
+    background:green;
+    padding: 5px;
+
+}
+.vendor{
+    background:#B55B00;
+    padding:10px;
+}
+.banner{
+    padding:30px 0;
+
+}
+.bannerimg{
+    width: 600px;
+}
+.sbox{
+    text-align: center;
+}
+.vission{
+    width:600px;
+    margin:30px 0;   
+}

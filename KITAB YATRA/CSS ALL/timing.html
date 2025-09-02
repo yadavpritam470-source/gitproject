@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px; height: 100px;
+            border: 2px solid blue;
+            position: relative;
+            animation: time 5s forwards, blink 2s linear 6s;
+        }
+        @keyframes time {
+            0%{ left: 0; } 100%{ left: 1200px;}
+        }
+        .a{ animation-timing-function: ease;}
+         .b{ animation-timing-function: ease-in;}
+         .c{ animation-timing-function: ease-out;}
+        .d{ animation-timing-function: ease-in-out;}
+        .e{ animation-timing-function: linear;}
+         .f{ animation-timing-function: steps(6);}
+         @keyframes blink {
+            0%{ opacity: 1;} 100%{ opacity: 0;}
+         }
+    </style>
+</head>
+<body>
+    <div class="box a">ease</div>
+    <div class="box b">ease-in</div>
+    <div class="box c">ease-out</div>
+    <div class="box d">ease-in-out</div>
+    <div class="box e">linear</div>
+    <div class="box f">steps</div>
+</body>
+</html>
