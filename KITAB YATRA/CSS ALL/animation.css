@@ -1,12 +1,13 @@
 .box
 {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     background: red;
+    background: linear-gradient(red blue green purple pink);
     position: absolute;
     animation-name: move;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: ;
     animation-fill-mode: both;
@@ -26,13 +27,14 @@
     
 }
 .box1{
-    width: 140px; height: 140px; border-radius: 35px; background: blue;
+    width: 100px; height: 90px; border-radius: 0; background: blue;
     position: absolute;
     top: 100px; left: 100px;
     animation: rot 0.1s linear infinite;
 }
 @keyframes rot {
-    100%{ transform:rotate(720deg)}
+    50%{ transform:rotate(720deg);}
+    100%{transform: rotate(0deg);}
 }
 .rectangle{
     width: 400px;
@@ -42,4 +44,14 @@
     text-align: center;
     top: 480px;
     left: 520px;
+}
+.box2{
+    width: 100px; height: 90px; border-radius: 0; background: blue;
+    position: absolute;
+    top: 400px; left: 100px;
+    animation: rotate 0.1s linear infinite;
+}
+@keyframes rotate {
+    50%{ transform:rotate(720deg);}
+    100%{transform: rotate(0deg);}
 }
